@@ -42,5 +42,7 @@
 
   routinator = pkgs.callPackage ./pkgs/routinator { };
 
+  wireguard-vanity-address = pkgs.callPackage ./pkgs/wireguard-vanity-address { };
+
 }
 
