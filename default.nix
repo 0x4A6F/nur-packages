@@ -26,6 +26,8 @@
 
   #bpf-linker = pkgs.callPackage ./pkgs/bpf-linker { };
 
+  check_mk-agent = pkgs.callPackage ./pkgs/check_mk-agent { };
+
   espflash = pkgs.callPackage ./pkgs/espflash { };
 
   deploy-rs = pkgs.callPackage ./pkgs/deploy-rs { };
