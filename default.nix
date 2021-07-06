@@ -46,7 +46,7 @@
 
   wireguard-vanity-address = pkgs.callPackage ./pkgs/wireguard-vanity-address { };
 
-  zellij = pkgs.callPackage ./pkgs/zellij { };
+  #zellij = pkgs.callPackage ./pkgs/zellij { };
 
 }
 
