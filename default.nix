@@ -42,7 +42,7 @@
 
   photoview-api = pkgs.callPackage ./pkgs/photoview-api { };
 
-  #routinator = pkgs.callPackage ./pkgs/routinator { };
+  routinator = pkgs.callPackage ./pkgs/routinator { };
 
   wireguard-vanity-address = pkgs.callPackage ./pkgs/wireguard-vanity-address { };
 
