@@ -40,6 +40,8 @@
 
   innernet = pkgs.callPackage ./pkgs/innernet { };
 
+  nixpkgs-check = pkgs.callPackage ./pkgs/nixpkgs-check { };
+
   photoview-api = pkgs.callPackage ./pkgs/photoview-api { };
 
   routinator = pkgs.callPackage ./pkgs/routinator { };
