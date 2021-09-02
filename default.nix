@@ -28,6 +28,8 @@
 
   check_mk-agent = pkgs.callPackage ./pkgs/check_mk-agent { };
 
+  conduit = pkgs.callPackage ./pkgs/conduit { };
+
   espflash = pkgs.callPackage ./pkgs/espflash { };
 
   deploy-rs = pkgs.callPackage ./pkgs/deploy-rs { };
