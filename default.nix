@@ -6,7 +6,7 @@
 # commands such as:
 #     nix-build -A mypackage
 
-{ pkgs ? import <nixpkgs> {} }:
+{ pkgs ? import <nixpkgs> { } }:
 
 {
   # The `lib`, `modules`, and `overlay` names are special
@@ -19,6 +19,8 @@
   # ...
 
   acmed = pkgs.callPackage ./pkgs/acmed { };
+
+  autorandr-rs = pkgs.callPackage ./pkgs/autorandr-rs { };
 
   blflash = pkgs.callPackage ./pkgs/blflash { };
 
