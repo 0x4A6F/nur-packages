@@ -44,6 +44,8 @@
 
   innernet = pkgs.callPackage ./pkgs/innernet { };
 
+  mumble-web-proxy = pkgs.callPackage ./pkgs/mumble-web-proxy { };
+
   nixpkgs-check = pkgs.callPackage ./pkgs/nixpkgs-check { };
 
   photoview-api = pkgs.callPackage ./pkgs/photoview-api { };
