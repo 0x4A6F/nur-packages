@@ -46,9 +46,9 @@
 
   libcerror = pkgs.callPackage ./pkgs/libcerror { };
 
-  libcthreads = pkgs.callPackage ./pkgs/libcthreads { };
+  #libcthreads = pkgs.callPackage ./pkgs/libcthreads { };
 
-  libcdata = pkgs.callPackage ./pkgs/libcdata { };
+  #libcdata = pkgs.callPackage ./pkgs/libcdata { };
 
   mumble-web-proxy = pkgs.callPackage ./pkgs/mumble-web-proxy { };
 
