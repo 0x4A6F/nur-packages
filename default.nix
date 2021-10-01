@@ -44,6 +44,12 @@
 
   innernet = pkgs.callPackage ./pkgs/innernet { };
 
+  libcerror = pkgs.callPackage ./pkgs/libcerror { };
+
+  libcthreads = pkgs.callPackage ./pkgs/libcthreads { };
+
+  libcdata = pkgs.callPackage ./pkgs/libcdata { };
+
   mumble-web-proxy = pkgs.callPackage ./pkgs/mumble-web-proxy { };
 
   nixpkgs-check = pkgs.callPackage ./pkgs/nixpkgs-check { };
