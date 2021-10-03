@@ -20,6 +20,8 @@
 
   acmed = pkgs.callPackage ./pkgs/acmed { };
 
+  alquitran = pkgs.callPackage ./pkgs/alquitran { };
+
   autorandr-rs = pkgs.callPackage ./pkgs/autorandr-rs { };
 
   blflash = pkgs.callPackage ./pkgs/blflash { };
