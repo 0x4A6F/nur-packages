@@ -54,7 +54,7 @@
 
   mumble-web-proxy = pkgs.callPackage ./pkgs/mumble-web-proxy { };
 
-  nixpkgs-check = pkgs.callPackage ./pkgs/nixpkgs-check { };
+  # nixpkgs-check = pkgs.callPackage ./pkgs/nixpkgs-check { };
 
   pixelpwnr = pkgs.callPackage ./pkgs/pixelpwnr { };
 
