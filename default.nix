@@ -44,7 +44,7 @@
 
   gobi_loader = pkgs.callPackage ./pkgs/gobi_loader { };
 
-  innernet = pkgs.callPackage ./pkgs/innernet { };
+  # innernet = pkgs.callPackage ./pkgs/innernet { };
 
   libcerror = pkgs.callPackage ./pkgs/libcerror { };
 
